@@ -3,6 +3,9 @@
   flex-direction: column;
 }
 
+
+
+
 .flex-container > div {
   background-color: #f1f1f1;
   width: 100px;
@@ -33,7 +36,10 @@ div {
 
 }
  body {
-  background-color: black;
+  background-color: #38468a;
+}
+form{
+	background-color: #2e3452;
 }
 p {
 	color: white;

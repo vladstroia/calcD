@@ -3,25 +3,23 @@
 <head>
     <title>Calculator</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 
 </head>
 
 <body class="center">  
-<p>Calculeaza suma a doua numere</p>
 	
 	<div class="flex-container">    
 	  <form>
+      <p>Calculeaza suma a doua numere</p>
 			<div>  	<input type="number"  id="number_box1"> <div>
 					<div> 	<input type="number" id="number_box2"> <div>
         <button type="submit" >Suma</button>
         <p id="rezultat"></p>
     </form>
-</div>
+ </div>
 
-<div class="flex-container">
-</div>
 </body>
 </html>
