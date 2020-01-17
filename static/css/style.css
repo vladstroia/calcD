@@ -44,3 +44,6 @@ form{
 p {
 	color: white;
 }
+img{
+	max-width: 100%
+}
